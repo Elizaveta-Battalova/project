@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.btn{
+    width: 180px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    border: 2px solid rgb(4, 51, 24);
+}
+ul{
+    text-align: start;
+}
+li{
+    list-style-type: none;
+}
+li::before{
+    content: url("./images/Star\ 2.png");
+}
